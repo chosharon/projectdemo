@@ -1,0 +1,67 @@
+/*DEVELOPER: Sharon Cho, IS117-004, Spring 2021*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 990px) {
+    .navbar .navbar-toggler {
+        display: block;
+    }
+    .navbar-center {
+        float: none;
+        display: none;
+    }
+}
+
+
+.nav-logo {
+    text-align: center;
+    margin: 0.7em;
+}
+.nav-logo img {
+    margin-left: 0.7em;
+}
+.nav-logo h2 {
+    font-size: 0.9em;
+    font-weight: 525;
+    color: #383d41;
+    font-family: Arial ,serif;
+    padding-top: 0.3em;
+}
+
+.navbar-nav.navbar-center {
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+}
+
+nav ul li {
+    margin-right: 2.2em;
+    margin-left: 2.2em;
+}
+
+.main-picture img {
+    margin-top: 1em;
+}
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #383d41;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
